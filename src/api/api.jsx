@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Url = "http://localhost:8080";
+const Url = "https://ai-resume.westeurope.cloudapp.azure.com";
 
 export const submitCv = async (pdfFile, extraInfo) => {
   const token = localStorage.getItem("auth_token");
